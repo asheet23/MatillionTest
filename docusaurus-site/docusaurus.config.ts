@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Matillion',
   tagline: 'How-to-Guide',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mtln-docs-logo-white.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -76,7 +76,7 @@ const config: Config = {
       title: 'Matillion',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/mtln-docs-logo-white.png',
       },
       // items: [
       //   {
@@ -136,7 +136,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Matillion, Built with Docusaurus.`,
+      copyright: `© Copyright ${new Date().getFullYear()} Matillion Ltd`,
     },
     prism: {
       theme: prismThemes.github,
